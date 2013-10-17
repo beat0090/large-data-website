@@ -1,43 +1,163 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>GeoLogic · Basic Geology Information</title>
-	<link href="css/general.css" rel="stylesheet"> 
-	<meta name="handheldfriendly" content="true">
-	<meta name="mobiloptimized" content="240">
-	<meta name="viewport" content="width=device-width;initial-scale=1">
-	<meta name="description" content="Cleavage? I have your attention, this is an intro the basics of Geology.">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GeoLogic - Basic Geology Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Starter files for implementing Twitter Bootstrap's Carousel -- using Bootstrap version 2.0.4">
+    <meta name="author" content="David Cochran for webdesign.tutsplus.com">
 
-<body>
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
-	<header> 
-		<img src="http://placehold.it/200x200" alt="">
-		<h1>GeoLogic</h1>
-	</header>
-	
-		<nav>
-			<ul>
-				<li><a href="index.html" rel="home">Home</a></li>
-				<li>About</li>
-				<li>Rock Types</li>
-				<li>Minerals & Gemstones</li>
-				<li>Extras</li>
-			</ul>
-		</nav>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	<img src="http://placehold.it/1200x300" class="main-bucket" alt="">
+    <!-- Le fav and touch icons -->
+    <!-- Commented out - update these with your own files -->
+    <!-- 
+      <link rel="shortcut icon" href="ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png"> 
+    -->
+  </head>
 
-	<div>
-		<p><strong>Cleavage?</strong> Now that I have your attention, this is an intro to the basics of <a href="http://en.wikipedia.org/wiki/Geology" rel="external"><strong>geology.</strong></a> Through a combination of various elements such as <em>articles</em>, <em>photos,</em> and <em>facts,</em> this website will address topics that will range from the difference between rocks, gems, and minerals to its terminology.</p>
-	</div>
-	
-	<footer>
-		<p>&#169; 2013 Lisa Beaton. All Rights Reserved.
-		</p>
-	</footer>
+  <body>
 
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">GeoLogic</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">All About Geology</a></li>
+			  <li><a href="#rocks">Types of Rocks</a></li>
+              <li><a href="#contact">Minerals and Gemstones</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      GeoExtras
+                      <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Gallery</a></li>
+				   <li><a href="#">Fossils</a></li>
+                  <li><a href="#">Fun Facts</a></li>
+                </ul>
+              </li><!-- dropdown -->
+            </ul><!-- /.nav -->
+          </div><!--/.nav-collapse -->
+        </div><!-- /.container -->
+      </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
 
-</body>
+    <div class="container">
+
+      <!--  Carousel -->
+      <!--  consult Bootstrap docs at 
+            http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <div id="this-carousel-id" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="item active">
+              <img src="img/pink-minerals.jpg" alt="Pink Chalcedony" />
+            </a>
+            <div class="carousel-caption">
+              <p><strong>Pink Chalcedony</strong></p>
+              <p>Chalcedonies include many types of cryptocrystalline quartz gems and feature a number of different colors. Geologists can tell a chalcedony from the arrangement and structure of its crystals.</p>
+            </div>
+          </div>
+          <div class="item">
+            
+              <img src="img/white-rock.jpg" alt="White Rock" />
+            </a>
+            <div class="carousel-caption">
+              <p><strong>White Rock</strong></p>
+              <p>A river of white rock snakes within its darker surroundings, providing evidence that it had a greater viscosity than the darker rock. Geologists refer to this kind of formation as ptygmatic folding.</p>
+            </div>
+          </div>
+          <div class="item">
+            
+              <img src="img/sed-rock.jpg" alt="Sedimentary Slope" />
+            </a>
+            <div class="carousel-caption">
+              <p><strong>Sedimentary Slope</strong></p>
+              <p>After mud, gravel, and sand sediments were deposited and formed rock layers over time, uplift raised the region. Erosion then began to carve the magnificent cliffs and canyons seen today.</p>
+            </div>
+          </div>
+          <div class="item">
+            
+              <img src="img/flourite-mineral.jpg" alt="Flourite Mineral" />
+            </a>
+            <div class="carousel-caption">
+              <p><strong>Fluorite Minerals</strong></p>
+              <p>Fluorite is a colorful mineral, both in visible and ultraviolet light. A mineral consisting of calcium fluoride that typically occurs as cubic crystals, and colorless.</p>
+            </div>
+          </div>
+        </div><!-- .carousel-inner -->
+        <!--  next and previous controls here
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+      </div><!-- .carousel -->
+      <!-- end carousel -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>What is Geology?</h2>
+           <p>Geology is the science comprising the study of solid Earth, the rocks of which it is composed, and the processes by which they change. Geology can also refer generally to the study of the solid features of any celestial body (such as the geology of the Moon or Mars). </p>
+          <p><a class="btn" href="#">Learn More &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>What are Methods of Geology?</h2>
+           <p>Geologists use a number of field, laboratory, and numerical modeling methods to decipher Earth history and understand the processes that occur on and in the Earth. In typical geological investigations, geologists use primary information related to <em>petrology</em>,<em>stratigraphy</em>, and <em>structural</em> geology. </p>
+          <p><a class="btn" href="#">Learn More! &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>What is a Rock?</h2>
+          <p>Rocks are everywhere. They have been on the earth over four billion years.The rock you see might have once been part of a magnificent mountain or spectacular cave. It could have even been stomped by a dinosaur. Rocks are a fascinating way to discover information about the history of the earth.</p>
+          <p><a class="btn" href="#">Learn More! &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&#169; 2013 Lisa Beaton. All Rights Reserved. <!--By <a href="http://twitter.com/davidcochran">David Cochran</a> of <a href="http://alittlecode.com/">aLittleCode.com</a> for <a href="http://webdesign.tutsplus.com/">webdesign.tutsplus.com</a></p>-->
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
+
+  </body>
 </html>
