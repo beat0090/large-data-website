@@ -73,6 +73,13 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+.about-img {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1%;
+}
+
 #map_canvas img {
   max-width: none;
 }
@@ -159,7 +166,8 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  letter-spacing: .78px;
+  line-height: 16px;
   color: #685443;
   background-color: #f7f8dc;
 }
@@ -481,6 +489,7 @@ h2 small {
 h3 {
   font-size: 18px;
   line-height: 27px;
+  color:#ae4a3c;
 }
 
 h3 small {
@@ -2402,7 +2411,7 @@ table .span24 {
   padding: 4px 0;
   margin: 1px 0 0;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #222222;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
@@ -2439,16 +2448,16 @@ table .span24 {
   clear: both;
   font-weight: normal;
   line-height: 18px;
-  color: #333333;
+  color: #ae4a3c;
   white-space: nowrap;
 }
 
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
-  color: #ffffff;
+  color: #e8ec97;
   text-decoration: none;
-  background-color: #0088cc;
+  background-color: #778349;
 }
 
 .open {
@@ -3621,7 +3630,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
-  color: #999999;
+  color: #f7f8dc;
 }
 
 .navbar .navbar-text {
@@ -3794,7 +3803,7 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 9px 10px 11px;
   line-height: 19px;
-  color: #999999;
+  color: #ad584c;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -3812,14 +3821,14 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav > li > a:hover {
-  color: #ffffff;
+  color: #e8ec97;
   text-decoration: none;
   background-color: transparent;
 }
 
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
-  color: #ffffff;
+  color: #ae4a3c;
   text-decoration: none;
   background-color: #e8ec97;
 }
@@ -3880,7 +3889,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   width: 18px;
   height: 2px;
-  background-color: #f5f5f5;
+  background-color: #f7f8dc;
   -webkit-border-radius: 1px;
      -moz-border-radius: 1px;
           border-radius: 1px;
@@ -4935,8 +4944,10 @@ a.badge:hover {
 
 .carousel-caption h4,
 .carousel-caption p {
-  color: #ffffff;
+  color: #f7f8dc;
 }
+
+#e8ec97
 
 .hero-unit {
   padding: 60px;
