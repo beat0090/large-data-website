@@ -88,7 +88,7 @@ img {
 }
 
 .description {
-	font-size:10px;
+	font-size:10.5px;
 	line-height: 12px;
 	padding-bottom: 5px;
 	
@@ -458,6 +458,15 @@ p small {
   line-height: 27px;
 }
 
+.title {
+	padding-bottom: 3%;
+}
+
+h4 {
+	padding-top: 2%;
+	color: #ae4a3c;
+}
+
 h1,
 h2,
 h3,
@@ -469,6 +478,7 @@ h6 {
   font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility;
+  color: #ae4a3c;
 }
 
 h1 small,
@@ -484,6 +494,7 @@ h6 small {
 h1 {
   font-size: 30px;
   line-height: 36px;
+  color: #7f3221;
 }
 
 h1 small {
