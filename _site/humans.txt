@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Lisa Beaton <lisabeaton@live.com>
+Site: 
+GitHub: beat0090.github.io
+Twitter: @mdrnhippie
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+To Thomas J Bradley, offering coding expertise 
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Adobe Dreamweaver
+- Git + GitHub
+- Markdown
+
+## Hosting

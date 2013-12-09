@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>404: Couldn't locate your Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Cochran for webdesign.tutsplus.com">
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+ <div  role="navigation" id="navigation" class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html" rel="home">GeoLogic</a> <!--added rel="home"-->
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html" rel="home">Home</a></li>  <!--added rel="home"-->
+              <li><a href="about.html">All About Geology</a></li>
+			  <li><a href="rocks.html">Types of Rocks</a></li>
+              <li><a href="mineralsandgemstones.html">Minerals and Gemstones</a></li>
+			  <li><a href="fossils.html">Fossils</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      GeoExtras
+                      <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="gallery.html">Rock Gallery</a></li>
+				   <li><a href="gem-gallery.html">Gemstone Gallery</a></li>
+                  <li><a href="funfacts.html">Fun Facts</a></li>
+                </ul>
+              </li><!-- dropdown -->
+            </ul><!-- /.nav -->
+          </div><!--/.nav-collapse -->
+        </div><!-- /.container -->
+      </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
+
+<div class="not-found">
+<img src="img/404-image.png" alt="Rocks looking confused, you have entered a wrong link">
+</div>
+
+
+
+
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
+
+
+
+</body>
+</html>
