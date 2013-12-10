@@ -9,11 +9,11 @@
  */
 
 a.current {
-	background-color: red;
+	background-color: #e4ee8e;
 }
 
 li.active {
-	background-color: red;
+	background-color: #e4ee8e;
 }
 
 article,
