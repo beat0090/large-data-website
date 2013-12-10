@@ -59,7 +59,7 @@
 					<ul class="nav">
 					  <li class="active"><a href="index.html" rel="home">Home</a></li>  <!--added rel="home"-->
 					  <li><a href="about.html" class="{% if page.url == '/about.html' %}current{% endif %}">All About Geology</a></li>
-					  <li><a href="rocks.html"{% if page.url == '/rocks.html' %}current{% endif %}">Types of Rocks</a></li>
+					  <li><a href="rocks.html" class="{% if page.url == '/rocks.html' %}current{% endif %}">Types of Rocks</a></li>
 					  <li><a href="mineralsandgemstones.html">Minerals and Gemstones</a></li>
 					  <li><a href="fossils.html">Fossils</a></li>
 					  <li class="dropdown">
@@ -69,7 +69,7 @@
 						</a>
 						<ul class="dropdown-menu">
 						  <li><a href="gallery.html">Rock Gallery</a></li>
-						   <li><a href="gem-gallery.html">Gemstone Gallery</a></li>
+						   <li><a href="gem-gallery.html" class="{% if page.url == '/gem-gllery.html' %}current{% endif %}">Gemstone Gallery</a></li>
 						  <li><a href="funfacts.html">Fun Facts</a></li>
 						</ul>
 					  </li><!-- dropdown -->
