@@ -57,7 +57,7 @@
 				  <a class="brand" href="index.html" rel="home">GeoLogic</a> <!--added rel="home"-->
 				  <div class="nav-collapse">
 					<ul class="nav">
-					  <li class="active"><a href="index.html" rel="home">Home</a></li>  <!--added rel="home"-->
+					  <li class="active"><a href="index.html" rel="home" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>  <!--added rel="home"-->
 					  <li><a href="about.html" class="{% if page.url == '/about.html' %}current{% endif %}">All About Geology</a></li>
 					  <li><a href="rocks.html" class="{% if page.url == '/rocks.html' %}current{% endif %}">Types of Rocks</a></li>
 					  <li><a href="mineralsandgemstones.html">Minerals and Gemstones</a></li>
